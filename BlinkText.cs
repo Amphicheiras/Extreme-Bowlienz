@@ -3,7 +3,7 @@
  using UnityEngine.UI;
  using UnityEngine.EventSystems;
  
- public class BRY : MonoBehaviour {
+ public class BlinkText : MonoBehaviour {
  
 	public Transform ffs;
  
