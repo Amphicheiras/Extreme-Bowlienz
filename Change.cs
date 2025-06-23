@@ -19,7 +19,6 @@ public class Change : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (enable) {
-			
 			if (Time.time > changeTime) {
 				mr.SetActive (kserw);
 				rm.SetActive (!kserw);
@@ -33,7 +32,6 @@ public class Change : MonoBehaviour {
 				kserw = !kserw;
 			}
 		}
-
 	}
 
 	public void Enable(){
